@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Play, ExternalLink, Instagram, Youtube, Music, Video } from "lucide-react"
+import { Play, ExternalLink, Facebook, Youtube, Music, Video } from "lucide-react"
 
 // Artist data from the JSON
 const artistData = {
@@ -294,20 +294,25 @@ export default function RapArtistLanding() {
             <Button
               variant="outline"
               size="icon"
+              onClick={() => window.open("https://www.facebook.com/profile.php?id=100083022412601", "_blank")}
               className="border-accent text-accent hover:bg-accent/20 hover:border-accent/60 bg-transparent"
             >
-              <Instagram className="h-5 w-5" />
+              <Facebook className="h-5 w-5" />
             </Button>
             <Button
               variant="outline"
               size="icon"
+              onClick={() => window.open("https://www.tiktok.com/@dnttrex", "_blank")}
               className="border-accent text-accent hover:bg-accent/20 hover:border-accent/60 bg-transparent"
             >
-              <Video className="h-5 w-5" />
+              <svg width="20" height="20" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" strokeWidth="3" stroke="currentColor" fill="none">
+                <path d="M52.46,26.64c-1.15.25-4.74.65-9.7-2.41a.5.5,0,0,0-.77.42s0,10,0,13.33c0,2.68.15,20.4-17.16,18.42,0,0-13.68-1-13.68-16.33,0,0,.19-13.8,16.42-15a.51.51,0,0,1,.55.5V32.6a.48.48,0,0,1-.42.49c-1.9.27-9.54,1.8-8.69,8.77a7.19,7.19,0,0,0,7.37,6.3s7,.78,7.32-9V7.94a.51.51,0,0,1,.5-.5h6.88a.5.5,0,0,1,.49.41c.36,2,2.42,9.82,10.8,10.31a.5.5,0,0,1,.48.49v7.51A.48.48,0,0,1,52.46,26.64Z" strokeLinecap="round"/>
+              </svg>
             </Button>
             <Button
               variant="outline"
               size="icon"
+              onClick={() => window.open("https://www.youtube.com/channel/UCANIo1OYLYI9c9gvtpitu3w", "_blank")}
               className="border-accent text-accent hover:bg-accent/20 hover:border-accent/60 bg-transparent"
             >
               <Youtube className="h-5 w-5" />
@@ -315,6 +320,7 @@ export default function RapArtistLanding() {
             <Button
               variant="outline"
               size="icon"
+              onClick={() => window.open("https://music.apple.com/us/artist/dnt-t-rex/1625192505", "_blank")}
               className="border-accent text-accent hover:bg-accent/20 hover:border-accent/60 bg-transparent"
             >
               <Music className="h-5 w-5" />
