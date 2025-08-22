@@ -16,58 +16,67 @@ const artistData = {
   },
   featuredSong: {
     title: "Cowboy",
-    album: "in loving memory",
+    album: "The Stompin Grounds - in loving memory",
     duration: "3:42",
-    spotifyId: "https://open.spotify.com/intl-es/artist/3zMXNhpoTEA0OYBghRoZH5",
+    spotifyId: "https://music.apple.com/us/artist/dnt-t-rex/1625192505",
     amazonMusicUrl: "https://open.spotify.com/intl-es/artist/3zMXNhpoTEA0OYBghRoZH5",
+    appleMusicUrl: "https://music.apple.com/us/song/cowboy/1723931217",
     coverArt: "/T-Rex.webp",
-    description: "A hard-hitting track about late-night ambitions and street dreams",
+    description: "A rapper from New Orleans who mixes street life with the essence of the modern cowboy, riding a horse instead of in a car, with pride, toughness, and hip-hop style. Now rolling in San Antonio, Texas.",
   },
   discography: [
     {
-      title: "Urban Chronicles",
+      title: "Boss up an Prepared",
       year: "2023",
       type: "Album",
-      tracks: 12,
-      coverArt: "/hip-hop-album-cover.png",
-      spotifyUrl: "https://open.spotify.com/intl-es/artist/3zMXNhpoTEA0OYBghRoZH5",
+      tracks: 18,
+      coverArt: "/bossupcover.webp",
+      spotifyUrl: "https://music.apple.com/us/album/boss-up-an-prepared/1718813846",
     },
     {
-      title: "Street Visions EP",
-      year: "2022",
-      type: "EP",
-      tracks: 6,
-      coverArt: "/placeholder-1510r.png",
-      spotifyUrl: "https://open.spotify.com/album/example2",
+      title: "The Stompin Grounds",
+      year: "2023",
+      type: "Album",
+      tracks: 13,
+      coverArt: "/TheStompin.webp",
+      spotifyUrl: "https://music.apple.com/us/album/the-stompin-grounds/1723931212",
     },
     {
-      title: "Rise Up",
-      year: "2021",
-      type: "Single",
-      tracks: 1,
-      coverArt: "/urban-neon-single.png",
-      spotifyUrl: "https://open.spotify.com/track/example3",
+      title: "Gemini",
+      year: "2024",
+      type: "Album",
+      tracks: 9,
+      coverArt: "/geminis.webp",
+      spotifyUrl: "https://music.apple.com/us/album/gemini/1756178754",
+    },
+        {
+      title: "Still Onn tha Grind",
+      year: "2025",
+      type: "Album",
+      tracks: 9,
+      coverArt: "/stillonnthaGrind.webp",
+      spotifyUrl: "https://music.apple.com/us/album/still-onn-tha-grind/1812473046",
     },
   ],
   lyricsSnippets: [
     {
       song: "Cowboy",
       snippet:
-        " Country it's time to settle up like I'm about to ride on my horse I'm a goddamn cowboy I don't need no car I ride on my I'm a godamn cowboy I really like my 40 but I might give it up I'm a goddamn Cowboy I'm from New Orleans I'm a do but I still like the cowboy stay stra that's how you got to be so white I'm a goddamn Cowboy ride around the city like I'm ride around on my uhhuh I'm a goddamn cowboy you going run up get done... " },
+        "Country it's time to settle up like I'm about to ride on my horse I'm a goddamn cowboy I don't need no car I ride on my I'm a godamn cowboy I really like my 40 but I might give it up I'm a goddamn Cowboy I'm from New Orleans I'm a do but I still like the cowboy stay stra that's how you got to be so white I'm a goddamn Cowboy ride around the city like I'm ride around on my uhhuh I'm a goddamn cowboy you going run up get done... " },
     {
-      song: "Street Visions",
+      song: "Activated",
       snippet:
-        "Walking through the concrete jungle every day / Making moves in my own unique way / Stories written in the walls around me / This is where my heart will always be",
+        "Ain't no need to act tough, I be chillin' Rollin' up straight raw, in a car, chiefin'  You can talk down on my name like you're teachin' Just give me a reason, I'll leave you bleedin' The way she shake and clap, that thing she always teasin' Smokin' hella perp, eatin' brownies for no reason Every single day, gettin' money for a reason That shit I do hot, but I'm cold for no reason 2 plus 2, you could call me 4 season Gotta be everywhere, like I live in different regions Niggas act tough, really call themselves a demon 40 with that 16 clip, switch it up, yeah, redeem ya Really said a lot, but ain't sayin' nothin' when I seen ya I be ridin' in a Chevy, but my pilot drive a Beamer I'll take your girl, now tell me, have you seen her? But I'm too real for that shit, cause I don't need her You can think I'm slippin', but I always keep the heater Wet your ass up ...",
     },
     {
-      song: "Rise Up",
+      song: "So Fly",
       snippet:
-        "They said I'd never make it past the block / Now I'm standing here solid as a rock / Every setback was a setup for success / Now I'm blessed and I'm giving nothing less",
+        "Yeah. Got my eyes on a prize. Got money on my mind. Sometimes a nigga fall, but I'm destined to rise. Bitch, I'm back built. Yeah, I'm bout to make you cry 50-50 split, got my piece of the pie Yeah, I'm so fly, I'm so fly I'm so fly, I'm so fly Let's get high, let's get high, let's get high Let's get high, I'm so fly I'm so fly, I'm so fly I'm so fly, thank God, thank God, thank God Thank God I'm fly, got a piece of the pie Always so high, really don't know why Don't look me in the eye  Pain hits so quick, you don't really know why When you start to cry, you gon' be like this YYYY, oh why? Back built up bitch I don't never really quit Took a break real quick Now I'm back in this bitch Bout to make your ass sick I'll run it up quick I don't trick, I don't shit This ain't Halloween bitch Looking for a little treat Trying to act all sweet I ain't really no fool Trying to use me like a tool But I keep that tool I'll use that tool Gotta keep my cool Can't be no fool Got too much to lose Hungry, I always need food Slow it down, I'm screwed She naked like Benu With the right attitude Thomas show grounder to let me see that as move up and down the clap to All that ass in the way she move got a nigga in the groove bad bitch So fine got my stamp cuz she approved cute face nice waist and she graduated to see Fuckin with a nigga cuz you know a nigga so so fly to ain't gotta dress just to impress him what I do Fly nigga season DNT we on to [1.0s] Got my eyes on a prize Got money on my mind, sometimes a nigga fall But I'm destined to rise, bitch I'm back built up Yeah, I'm bout to make you cry 50-50 split, got my piece of the pie Yeah, I'm so fly, I'm so fly, I'm so fly Let's get high, let's get high, let's get high I'm so fly, I'm so fly, I'm so fly Thank God, thank God, thank God ",
     },
     {
-      song: "Urban Dreams",
+      song: "Upshit",
       snippet:
-        "Microphone check, one two, here I go / Spitting fire with that lyrical flow / From the underground to the mainstream scene / Living out my wildest urban dreams",
+        "Just that up shit Closed caption no subject Beat your ass in public Money is my subject just that up shit Damn uh damn Just that up shit uh damn Uh just that up shit uh Closed caption no subject Beat your ass in public Money is my subject this that up shit Fuck shit don't fuck around with fake shit Hell you're movin like the Matrix Don't run baby come take this Damn damn Hoe in the club Hope these niggas don't trip Cause they ain't gon have no lip I'm just gon empty the clip I got plenty to give This that up shit Herm G what's up bitch Money is the subject Came up from hustlin Say time I'm roaming Early in the morning Phone key ringin goddamn I'ma need more grounds Niggas be hatin goddamn Like I pull up in a Lamborghini Masked up they ain't gon see me Blacked up with a black beanie Watch these niggas these niggas scheming Smoke good yeah niggas steaming Y'all broke y'all niggas dreaming Money spent on true religion No cause these niggas walking Same niggas that be stunting Like they getting money Social media fronting Like they getting money Social media fronting Get that up shit uh Close caption no subject Beat your ass in public Money is my subject just stay up shit Damn Uh damn just that up shit",
     },
   ],
 }
@@ -161,9 +170,9 @@ export default function RapArtistLanding() {
                   </p>
                   <p className="text-foreground mb-6">{artistData.featuredSong.description}</p>
                   <div className="flex gap-4">
-                    <Button className="bg-accent hover:bg-accent/80 text-accent-foreground">
+                    <Button className="bg-accent hover:bg-accent/80 text-accent-foreground" onClick={() => handleSpotifyPlay(artistData.featuredSong.appleMusicUrl)}>
                       <Play className="mr-2 h-4 w-4" />
-                      Play on Spotify
+                      Play on Apple Music
                     </Button>
                     <Button
                       variant="outline"
@@ -187,7 +196,7 @@ export default function RapArtistLanding() {
           <h2 className="font-manrope font-bold text-4xl md:text-5xl text-center mb-16 text-accent">Discography</h2>
           <div className="relative">
             <div className="flex justify-center">
-              <div className="relative w-80 h-96 mx-auto">
+              <div className="relative w-80 h-[28rem] mx-auto">
                 {artistData.discography.map((album, index) => (
                   <Card
                     key={index}
@@ -204,17 +213,19 @@ export default function RapArtistLanding() {
                       <img
                         src={album.coverArt || "/placeholder.svg"}
                         alt={album.title}
-                        className="w-full h-40 object-cover rounded-t-lg flex-shrink-0"
+                        className="w-full h-64 object-cover rounded-t-lg flex-shrink-0"
                       />
-                      <div className="p-4 flex-1 flex flex-col">
-                        <h3 className="font-manrope font-bold text-lg mb-1">{album.title}</h3>
-                        <p className="text-muted-foreground mb-1 text-sm">
-                          {album.year} • {album.type}
-                        </p>
-                        <p className="text-xs text-muted-foreground mb-3 flex-1">{album.tracks} tracks</p>
+                      <div className="p-4 flex-1 flex flex-col justify-between">
+                        <div>
+                          <h3 className="font-manrope font-bold text-lg mb-1">{album.title}</h3>
+                          <p className="text-muted-foreground mb-1 text-sm">
+                            {album.year} • {album.type}
+                          </p>
+                          <p className="text-xs text-muted-foreground mb-3">{album.tracks} tracks</p>
+                        </div>
                         <Button
                           size="sm"
-                          className="w-full bg-accent hover:bg-accent/80 text-accent-foreground mt-auto"
+                          className="w-full bg-accent hover:bg-accent/80 text-accent-foreground"
                           onClick={() => handleSpotifyPlay(album.spotifyUrl)}
                         >
                           <Play className="mr-2 h-3 w-3" />
