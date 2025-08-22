@@ -3,23 +3,23 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Play, ExternalLink, Instagram, Twitter, Youtube, Music } from "lucide-react"
+import { Play, ExternalLink, Instagram, Youtube, Music, Video } from "lucide-react"
 
 // Artist data from the JSON
 const artistData = {
   artist: {
     name: "DNT T-Rex",
     tagline: "From the Streets to the Beat",
-    bio: "Emerging from the underground scene, DNT T-Rex brings raw authenticity and lyrical prowess to modern hip-hop. With influences ranging from classic boom-bap to contemporary trap, his music tells stories of resilience, ambition, and street wisdom.",
+    bio: "Rising from the underground, DNT T-Rex delivers an unapologetic mix of street energy and sharp lyricism. His sound blends raw storytelling with heavy beats, drawing from the grit of classic hip-hop and the intensity of modern trap. Through vivid bars and bold presence, he reflects a life of hustle, ambition, and unshakable confidence.",
     location: "San Antonio, TX",
-    yearsActive: "2019 - Present",
+    yearsActive: "2017 - Present",
   },
   featuredSong: {
-    title: "Midnight Hustle",
-    album: "Urban Chronicles",
+    title: "Cowboy",
+    album: "in loving memory",
     duration: "3:42",
-    spotifyId: "4uLU6hMCjMI75M1A2tKUQC",
-    amazonMusicUrl: "https://music.amazon.com/albums/B08XAMPLE",
+    spotifyId: "https://open.spotify.com/intl-es/artist/3zMXNhpoTEA0OYBghRoZH5",
+    amazonMusicUrl: "https://open.spotify.com/intl-es/artist/3zMXNhpoTEA0OYBghRoZH5",
     coverArt: "/T-Rex.webp",
     description: "A hard-hitting track about late-night ambitions and street dreams",
   },
@@ -30,7 +30,7 @@ const artistData = {
       type: "Album",
       tracks: 12,
       coverArt: "/hip-hop-album-cover.png",
-      spotifyUrl: "https://open.spotify.com/album/example1",
+      spotifyUrl: "https://open.spotify.com/intl-es/artist/3zMXNhpoTEA0OYBghRoZH5",
     },
     {
       title: "Street Visions EP",
@@ -51,10 +51,9 @@ const artistData = {
   ],
   lyricsSnippets: [
     {
-      song: "Midnight Hustle",
+      song: "Cowboy",
       snippet:
-        "City lights flicker as I chase my dreams / Nothing's ever quite the way it seems / From the bottom now I'm climbing high / Touch the stars before I say goodbye",
-    },
+        " Country it's time to settle up like I'm about to ride on my horse I'm a goddamn cowboy I don't need no car I ride on my I'm a godamn cowboy I really like my 40 but I might give it up I'm a goddamn Cowboy I'm from New Orleans I'm a do but I still like the cowboy stay stra that's how you got to be so white I'm a goddamn Cowboy ride around the city like I'm ride around on my uhhuh I'm a goddamn cowboy you going run up get done... " },
     {
       song: "Street Visions",
       snippet:
@@ -120,9 +119,10 @@ export default function RapArtistLanding() {
             <Button
               variant="outline"
               size="lg"
-              className="border-accent text-accent hover:bg-accent hover:text-accent-foreground font-manrope font-semibold px-8 py-3 bg-transparent"
+              className="border-accent text-accent hover:bg-white hover:text-white font-manrope font-semibold px-8 py-3 bg-transparent"
+              onClick={() => window.open("https://www.amazon.com/dp/B0F7HZXST9/ref=sr_1_7?crid=1ZSM2YUNJPE2R&dib=eyJ2IjoiMSJ9.wUuxIzG9F_eYI7XjIlAqRx6yRwfOjCsFgKos6qHh7Goe7AVnYwB1QZZI64S-YaOBFXqSDq2b3_8rIW2MXO4wzxNP_oanW0wRkig3TCicrxFz47QjmTSR3R9e9ONsio1QehVSEuZSQ-6dDnS1j9bFPErwlVEjnsXLgbUk_ZN3vpf-lx10CNUqndDSGxw8lBrv7pVUdZ9bLMThcEhza0BgKSBbPlu7nnVkYtiScHh4bhzZFU5kWIBxYr5zBxaneSwmRB8tQQ2thOV08Frn2-EBjc1mSTY0UhaS7HJmO6o5qQw.Y6IwfnLP_ocajqRbfPfTVW1APcdm6TINa2udBlMF66Q&dib_tag=se&keywords=dnt+t-rex&qid=1755824039&sprefix=dnt+t-rex%2Caps%2C119&sr=8-7", "_blank")}
             >
-              <ExternalLink className="mr-2 h-5 w-5" />
+              <ExternalLink className="mr-2 h-5 w-5 hover:text-white " />
               Amazon Music
             </Button>
           </div>
@@ -167,9 +167,10 @@ export default function RapArtistLanding() {
                     </Button>
                     <Button
                       variant="outline"
-                      className="border-accent text-accent hover:bg-accent hover:text-accent-foreground bg-transparent"
+                      className="border-accent text-accent hover:bg-white hover:text-white bg-transparent"
+                      onClick={() => window.open("https://www.amazon.com/dp/B0F7HZXST9/ref=sr_1_7?crid=1ZSM2YUNJPE2R&dib=eyJ2IjoiMSJ9.wUuxIzG9F_eYI7XjIlAqRx6yRwfOjCsFgKos6qHh7Goe7AVnYwB1QZZI64S-YaOBFXqSDq2b3_8rIW2MXO4wzxNP_oanW0wRkig3TCicrxFz47QjmTSR3R9e9ONsio1QehVSEuZSQ-6dDnS1j9bFPErwlVEjnsXLgbUk_ZN3vpf-lx10CNUqndDSGxw8lBrv7pVUdZ9bLMThcEhza0BgKSBbPlu7nnVkYtiScHh4bhzZFU5kWIBxYr5zBxaneSwmRB8tQQ2thOV08Frn2-EBjc1mSTY0UhaS7HJmO6o5qQw.Y6IwfnLP_ocajqRbfPfTVW1APcdm6TINa2udBlMF66Q&dib_tag=se&keywords=dnt+t-rex&qid=1755824039&sprefix=dnt+t-rex%2Caps%2C119&sr=8-7", "_blank")}
                     >
-                      <Music className="mr-2 h-4 w-4" />
+                      <Music className="mr-2 h-4 w-4  hover:text-white " />
                       Amazon Music
                     </Button>
                   </div>
@@ -186,7 +187,7 @@ export default function RapArtistLanding() {
           <h2 className="font-manrope font-bold text-4xl md:text-5xl text-center mb-16 text-accent">Discography</h2>
           <div className="relative">
             <div className="flex justify-center">
-              <div className="relative w-80 h-80 mx-auto">
+              <div className="relative w-80 h-96 mx-auto">
                 {artistData.discography.map((album, index) => (
                   <Card
                     key={index}
@@ -199,24 +200,24 @@ export default function RapArtistLanding() {
                     }`}
                     onClick={() => setCurrentAlbum(index)}
                   >
-                    <CardContent className="p-0 h-full">
+                    <CardContent className="p-0 h-full flex flex-col">
                       <img
                         src={album.coverArt || "/placeholder.svg"}
                         alt={album.title}
-                        className="w-full h-48 object-cover rounded-t-lg"
+                        className="w-full h-40 object-cover rounded-t-lg flex-shrink-0"
                       />
-                      <div className="p-6">
-                        <h3 className="font-manrope font-bold text-xl mb-2">{album.title}</h3>
-                        <p className="text-muted-foreground mb-2">
+                      <div className="p-4 flex-1 flex flex-col">
+                        <h3 className="font-manrope font-bold text-lg mb-1">{album.title}</h3>
+                        <p className="text-muted-foreground mb-1 text-sm">
                           {album.year} • {album.type}
                         </p>
-                        <p className="text-sm text-muted-foreground mb-4">{album.tracks} tracks</p>
+                        <p className="text-xs text-muted-foreground mb-3 flex-1">{album.tracks} tracks</p>
                         <Button
                           size="sm"
-                          className="w-full bg-accent hover:bg-accent/80 text-accent-foreground"
+                          className="w-full bg-accent hover:bg-accent/80 text-accent-foreground mt-auto"
                           onClick={() => handleSpotifyPlay(album.spotifyUrl)}
                         >
-                          <Play className="mr-2 h-4 w-4" />
+                          <Play className="mr-2 h-3 w-3" />
                           Listen Now
                         </Button>
                       </div>
@@ -282,28 +283,28 @@ export default function RapArtistLanding() {
             <Button
               variant="outline"
               size="icon"
-              className="border-accent text-accent hover:bg-accent hover:text-accent-foreground bg-transparent"
+              className="border-accent text-accent hover:bg-accent/20 hover:border-accent/60 bg-transparent"
             >
               <Instagram className="h-5 w-5" />
             </Button>
             <Button
               variant="outline"
               size="icon"
-              className="border-accent text-accent hover:bg-accent hover:text-accent-foreground bg-transparent"
+              className="border-accent text-accent hover:bg-accent/20 hover:border-accent/60 bg-transparent"
             >
-              <Twitter className="h-5 w-5" />
+              <Video className="h-5 w-5" />
             </Button>
             <Button
               variant="outline"
               size="icon"
-              className="border-accent text-accent hover:bg-accent hover:text-accent-foreground bg-transparent"
+              className="border-accent text-accent hover:bg-accent/20 hover:border-accent/60 bg-transparent"
             >
               <Youtube className="h-5 w-5" />
             </Button>
             <Button
               variant="outline"
               size="icon"
-              className="border-accent text-accent hover:bg-accent hover:text-accent-foreground bg-transparent"
+              className="border-accent text-accent hover:bg-accent/20 hover:border-accent/60 bg-transparent"
             >
               <Music className="h-5 w-5" />
             </Button>
